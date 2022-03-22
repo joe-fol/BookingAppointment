@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
+import { Template } from 'govuk-react-jsx';
+
 
 export class Home extends Component {
   static displayName = Home.name;
 
   render () {
     return (
-      <div>
+      <div className='govuk-body'>
         <h1>Hello, world!</h1>
         <p>Welcome to your new single-page application, built with:</p>
         <ul>
